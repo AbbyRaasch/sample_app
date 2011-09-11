@@ -1,3 +1,7 @@
+
+Creation of new sample_app project in Rails, for the creation of Static Pages 9/11/11 AJR
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
