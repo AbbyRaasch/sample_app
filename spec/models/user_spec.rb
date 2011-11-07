@@ -10,7 +10,6 @@
 #
 
 require 'spec_helper'
-
 describe User do
   before(:each) do
     @attr = { :name => "Example User", 
@@ -103,6 +102,10 @@ describe User do
 
     it "should have an encrypted password attribute" do
       @user.should respond_to(:encrypted_password)
+    end
+    
+    it "should set the encrypted password" do
+      @user.encrypted_password.should_not be_blank
     end
     
     describe "has_password? method" do
